@@ -19,6 +19,16 @@ const router = createRouter({
                     component: () => import('@/views/uikit/FormClientes.vue')
                 },
                 {
+                    path: '/uikit/formventas',
+                    name: 'formventas',
+                    component: () => import('@/views/uikit/FormVentas.vue')
+                },
+                {
+                    path: '/uikit/formapi',
+                    name: 'formapi',
+                    component: () => import('@/views/uikit/FormApi.vue')
+                },
+                {
                     path: '/uikit/formlayout',
                     name: 'formlayout',
                     component: () => import('@/views/uikit/FormLayout.vue')
